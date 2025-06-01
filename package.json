@@ -1,9 +1,12 @@
 {
   "name": "synapse",
   "private": true,
+  "homepage": "https://cochisederrick.github.io/synapse",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -37,6 +40,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.5.3",
     "sass": "^1.89.0",
     "vite": "^4.5.14"
