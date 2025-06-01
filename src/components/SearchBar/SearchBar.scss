@@ -1,0 +1,27 @@
+.SearchBar {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    .SearchBar-card {
+        border: 1px solid #c4c4c4;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .MuiTextField-root  {
+        margin-top: 15px;
+    }
+    hr {
+        border-top: 1px solid #ddd;
+    }
+    h3 {
+        margin-bottom: 7px;
+        margin-top: 0;
+        color: #444;
+    }
+    .SearchBar-terms {
+        font-size: 15px;
+        margin-bottom: 7px;
+        font-weight: 600;
+        color: #315c7b;
+        text-transform: capitalize;
+    }
+}
